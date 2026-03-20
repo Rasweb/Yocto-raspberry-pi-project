@@ -1,0 +1,5 @@
+rpi-build
+meta-yocto
+bitbake
+meta-raspberrypi
+openembedded-core
