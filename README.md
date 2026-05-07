@@ -1,6 +1,11 @@
 # Yocto-raspberry-pi-project
 My custom linux image for the raspberry pi using Yocto and Bitbake
 
+DO THIS INSTEAD:
+- https://docs.yoctoproject.org/bitbake/2.16/bitbake-user-manual/bitbake-user-manual-intro.html#obtaining-bitbake 
+
+IGNORE THE REST KEEP ONLY FOR REFERENCE
+
 ## Info links
 - [Meta raspberrypi](https://github.com/agherzan/meta-raspberrypi)
 - [Yocto medium guide](https://medium.com/nerd-for-tech/build-your-own-linux-image-for-the-raspberry-pi-f61adb799652)
