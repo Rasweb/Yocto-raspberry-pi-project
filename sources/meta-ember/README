@@ -1,0 +1,64 @@
+This README file contains information on the contents of the meta-ember layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  URI: <first dependency>
+  branch: <branch name>
+
+  URI: <second dependency>
+  branch: <branch name>
+
+  .
+  .
+  .
+
+Patches
+=======
+
+Please submit any patches against the meta-custom-layer layer to the xxxx mailing list (xxxx@zzzz.org)
+and cc: the maintainer:
+
+Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-ember layer to your build
+ II. Misc
+
+
+I. Adding the meta-ember layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-ember'
+
+II. Misc
+========
+
+--- replace with specific information about the meta-ember layer ---
+
+
+
+## Info stuff
+Run c++ file after boot:
+FILE_NAME
+e.g: custom-main
+
+* [For USB to TTL Serial Cable connection](https://raspberrypi.stackexchange.com/questions/108769/what-is-the-correct-way-to-connect-serial-console-on-rpi4-model-b/108781#108781)
+
+
+# Yocto info
+* [Custom distribution](https://docs.yoctoproject.org/dev-manual/custom-distribution.html)
+* [Variables Glossary](https://docs.yoctoproject.org/ref-manual/variables.html#variables-glossary)
+* [Classes](https://docs.yoctoproject.org/ref-manual/classes.html#classes)
+* [Features](https://docs.yoctoproject.org/ref-manual/features.html#features)
+
+# Future implementation
+* Add c++ classes and such for commands
+* Add networking and networking commands for custom-main (ip addr, ping)
+* Configure Users and/or SSH key authentication
+* Configure other security features
+* Scripts to build image and flash to target device 

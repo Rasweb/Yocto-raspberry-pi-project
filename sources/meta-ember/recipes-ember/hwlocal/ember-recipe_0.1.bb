@@ -1,4 +1,4 @@
-SUMMARY = "Custom recipe"
+SUMMARY = "Ember recipe"
 
 DESCRIPTION = "This is my custom recipe - uses local source files"
 
