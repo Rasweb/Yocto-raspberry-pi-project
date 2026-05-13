@@ -45,7 +45,7 @@ II. Misc
 ## Info stuff
 Run c++ file after boot:
 FILE_NAME
-e.g: custom-main
+e.g: ember-cli
 
 * [For USB to TTL Serial Cable connection](https://raspberrypi.stackexchange.com/questions/108769/what-is-the-correct-way-to-connect-serial-console-on-rpi4-model-b/108781#108781)
 
@@ -58,7 +58,7 @@ e.g: custom-main
 
 # Future implementation
 * Add c++ classes and such for commands
-* Add networking and networking commands for custom-main (ip addr, ping)
+* Add networking and networking commands for ember-cli (ip addr, ping)
 * Configure Users and/or SSH key authentication
 * Configure other security features
 * Scripts to build image and flash to target device 

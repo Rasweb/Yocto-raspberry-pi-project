@@ -1,0 +1,38 @@
+header:
+  version: 21
+
+machine: raspberrypi5
+distro: ember
+
+target:
+  - my-image
+
+repos:
+  bitbake:
+    url: https://git.openembedded.org/bitbake
+    branch: master
+    layers:
+      bitbake:
+  openembedded-core:
+    url: https://git.openembedded.org/openembedded-core
+    branch: master
+    layers:
+      meta:
+  meta-yocto:
+    url: https://git.yoctoproject.org/meta-yocto
+    branch: master
+    layers:
+      meta-poky:
+      meta-yocto-bsp:
+
+  meta-raspberrypi:
+    url: https://github.com/agherzan/meta-raspberrypi.git
+    branch: master
+    layers:
+      meta:
+
+  meta-ember:
+    path: meta-ember
+
+target:
+  - core-image-minimal

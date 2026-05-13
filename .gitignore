@@ -1,2 +1,8 @@
-# Build folder
-rpi-build
+# Build directory
+build
+
+# Will be cloned by kas
+meta-yocto
+openembedded-core
+meta-raspberrypi
+bitbake

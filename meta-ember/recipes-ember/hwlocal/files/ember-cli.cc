@@ -8,7 +8,7 @@ int main(){
     std::cout << "Type 'help' for commands" << std::endl;
 
     while(true){
-        std::cout << "custom-main: ";
+        std::cout << "ember-cli: ";
         std::getline(std::cin, cmd);
 
         if(cmd == "help"){
