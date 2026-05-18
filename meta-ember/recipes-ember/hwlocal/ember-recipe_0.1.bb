@@ -1,6 +1,6 @@
 SUMMARY = "Ember recipe"
 
-DESCRIPTION = "This is my custom recipe - uses local source files"
+DESCRIPTION = "Custom Ember CLI utility"
 
 LICENSE = "MIT"
 

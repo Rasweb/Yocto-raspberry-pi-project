@@ -2,7 +2,7 @@
 build
 
 # Will be cloned by kas
-meta-yocto
-openembedded-core
-meta-raspberrypi
 bitbake
+meta-yocto
+meta-raspberrypi
+openembedded-core
