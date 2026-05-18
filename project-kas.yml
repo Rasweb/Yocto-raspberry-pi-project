@@ -1,0 +1,29 @@
+header:
+  version: 21
+
+machine: raspberrypi5
+distro: ember
+
+repos:
+  openembedded-core:
+    url: https://git.openembedded.org/openembedded-core
+    branch: master
+    layers:
+      meta:
+  meta-yocto:
+    url: https://git.yoctoproject.org/meta-yocto
+    branch: master
+    layers:
+      meta-poky:
+      meta-yocto-bsp:
+
+  meta-raspberrypi:
+    url: https://github.com/agherzan/meta-raspberrypi.git
+    branch: master
+
+  meta-ember:
+    path: meta-ember
+
+target:
+ - ember-image
+
