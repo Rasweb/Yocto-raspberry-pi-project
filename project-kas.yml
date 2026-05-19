@@ -5,11 +5,17 @@ machine: raspberrypi5
 distro: ember
 
 repos:
+  bitbake:
+    url: https://git.openembedded.org/bitbake
+    branch: master
+    layers: {}
+
   openembedded-core:
     url: https://git.openembedded.org/openembedded-core
     branch: master
     layers:
       meta:
+      
   meta-yocto:
     url: https://git.yoctoproject.org/meta-yocto
     branch: master
