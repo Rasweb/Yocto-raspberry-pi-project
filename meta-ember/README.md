@@ -20,10 +20,6 @@ bitbake-layers add-layer meta-ember
 - Custom image base on `core-image-minimal`
 - Recipes: `ember-cli`: simple C++ command-line tool
 
-## Serial Console:
-* [For USB to TTL Serial Cable connection](https://raspberrypi.stackexchange.com/questions/108769/what-is-the-correct-way-to-connect-serial-console-on-rpi4-model-b/108781#108781)
-
-
 ## References
 * [Custom distribution](https://docs.yoctoproject.org/dev-manual/custom-distribution.html)
 * [Variables Glossary](https://docs.yoctoproject.org/ref-manual/variables.html#variables-glossary)
