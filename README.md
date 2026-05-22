@@ -1,7 +1,7 @@
 # Yocto-raspberry-pi-project
 This project contains a custom Linux image for Raspberry Pi built using the Yocto Project and Bitbake.
 
-The goal of this project was to learn by creating a custom layer, distro configuration, and application recipe.
+The goal of this project was to learn Yocto, by creating a custom layer, distro configuration, and application recipe.
 
 ---
 
@@ -24,10 +24,10 @@ kas-container build project-kas.yml
 ---
 
 ## Project Structure
-`meta-ember/` - Custom Yocto layer
-`project-kas.yml` - Build configuration
-`meta-ember/recipes-ember` - Custom recipes
-`meta-ember/recipes-core/images` - Image definitions
+- `meta-ember/` - Custom Yocto layer
+- `project-kas.yml` - Build configuration
+- `meta-ember/recipes-ember` - Custom recipes
+- `meta-ember/recipes-core/images` - Image definitions
 
 ---
 
