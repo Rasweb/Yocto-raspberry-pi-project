@@ -16,11 +16,6 @@ The goal of this project was to learn by creating a custom layer, distro configu
 ---
 
 ## Build Instructions
-To build the project using the host machine:
-``` bash
-kas build project-kas.yml
-```
-
 To build the project using Docker/Podman
 ``` bash
 kas-container build project-kas.yml
